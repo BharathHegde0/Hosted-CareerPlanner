@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="header-container header">
+			<section class="inner-header-container header">
+				<div class="header-logo-grid header">
+					<div class="header">
+						<b style="font-size: 28px; font-weight: 600"
+							>Career Planner</b
+						>
+					</div>
+					<div class="navbar-grid header">
+						<div><a href="#">Home</a></div>
+						<div><a href="#">About Us</a></div>
+						<div><a href="#">Contact Us</a></div>
+					</div>
+				</div>
+			</section>
+		</header>
+		<form action="script.js" onsubmit="{return false;}">
+			<section class="content">
+				<div>
+					<div class="sel-cont">
+						<h1 class="question">What are your Interests?</h1>
+						<div class="options">
+							<button value="tech" class="option-buttons inter">
+								Tech
+							</button>
+							<button value="sci" class="option-buttons inter">
+								Science & Research
+							</button>
+							<button value="art" class="option-buttons inter">
+								Art
+							</button>
+							<button value="soc" class="option-buttons inter">
+								Social Services
+							</button>
+							<button value="des" class="option-buttons inter">
+								Design
+							</button>
+							<button value="edu" class="option-buttons inter">
+								Education & Teaching
+							</button>
+							<button value="hel" class="option-buttons inter">
+								Healthcare
+							</button>
+							<button value="busi" class="option-buttons inter">
+								Business
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="sel-cont">
+						<h1 class="question">What Skills do you have?</h1>
+						<div class="options">
+							<button
+								value="probsol"
+								class="option-buttons skill"
+							>
+								Problem Solving
+							</button>
+							<button value="lead" class="option-buttons skill">
+								Leadership
+							</button>
+							<button value="create" class="option-buttons skill">
+								Creativity
+							</button>
+							<button value="atten" class="option-buttons skill">
+								Attention to Detail
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="sel-cont">
+						<h1 class="question">
+							What are your Personality Traits?
+						</h1>
+						<div class="options">
+							<button value="intro" class="option-buttons pers">
+								Introverted
+							</button>
+							<button value="extro" class="option-buttons pers">
+								Extroverted
+							</button>
+							<button value="ambit" class="option-buttons pers">
+								Ambitious
+							</button>
+							<button value="pat" class="option-buttons pers">
+								Patient
+							</button>
+							<button value="flexi" class="option-buttons pers">
+								Flexible
+							</button>
+							<button value="org" class="option-buttons pers">
+								Organized
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="sel-cont">
+						<h1 class="question">
+							What are your Work Environment Preferences?
+						</h1>
+						<div class="options">
+							<button value="office" class="option-buttons env">
+								Office Setting
+							</button>
+							<button value="lab" class="option-buttons env">
+								Laboratory
+							</button>
+							<button value="cust" class="option-buttons env">
+								Customer Facing
+							</button>
+							<button value="rem" class="option-buttons env">
+								Remote & Freelance
+							</button>
+						</div>
+					</div>
+				</div>
+				<div>
+					<button class="submit" id="sub">Submit</button>
+				</div>
+
+				<div class="results hide" id="results-cont">
+					<div><h1><u>Results</u></h1></div>
+					<div></div>
+					<div></div>
+					<div class="image hide" id="busian">
+						<center><img src="imgs/businessanalyst.jpg" alt="" />
+						<h3>Business Analyst</h3></center>
+					</div class="image hide">
+					<div class="image hide" id="civil">
+						<center><img src="imgs/civilengg.jpg" alt="" />
+						<h3>Civil Engineer</h3></center>
+					</div>
+					<div class="image hide" id="cybersec">
+						<center><img src="imgs/cybersec.jpg" alt="" />
+						<h3>Cyber Security Expert</h3></center>
+					</div>
+					<div class="image hide"  id="datasci">
+						<center><img src="imgs/datascient.jpg" alt="" />
+						<h3>Data Scientist</h3></center>
+					</div>
+					<div class="image hide" id="doc">
+						<center><img src="imgs/doctor.jpg" alt=""  />
+						<h3>Doctor</h3></center>
+					</div>
+					<div class="image hide" id="fash">
+						<center><img src="imgs/fashion desinger.jpg" alt=""/>
+						<h3>Fashion Designer</h3></center>
+					</div>
+					<div class="image hide" id="filmd">
+						<center><img src="imgs/filmdir.jpg" alt=""  />
+						<h3>Film Director</h3></center>
+					</div>
+					<div class="image hide" id="graphdes">
+						<center><img src="imgs/graphicdes.jpg" alt=""  />
+						<h3>Graphic Designer</h3></center>
+					</div>
+			
+					<div class="image hide" id="mark">
+						<center><img src="imgs/marketing.jpg" alt=""  />
+						<h3>Marketing</h3></center>
+					</div>
+					<div class="image hide" id="mechen">
+						<center><img src="imgs/mechengg.jpg" alt=""  />
+						<h3>Mechanical Engineer</h3></center>
+					</div>
+					<div class="image hide" id="phys">
+						<center><img src="imgs/physicist.jpg" alt=""  />
+						<h3>Physicist</h3></center>
+					</div>
+					<div class="image hide" id="pol">
+						<center><img src="imgs/police.jpg" alt=""  />
+						<h3>Police</h3></center>
+					</div>
+					<div class="image hide" id="softeng">
+						<center><img src="imgs/software.jpg" alt=""  />
+						<h3>Software Engineer</h3></center>
+					</div>
+					<div class="image hide" id="prof">
+						<center><img src="imgs/teacher.jpg" alt=""  />
+						<h3>Professor</h3></center>
+					</div>
+					<div class="image hide"  id="ther">
+						<center><img src="imgs/therapist.jpg" alt="" />
+						<h3>Therapist</h3></center>
+					</div>
+					<div class="image hide">
+						<img src="imgs/.jpg" alt="" />
+						<h3></h3>
+					</div>
+				</div>
+			</section>
+		</form>
+
+		<script src="script.js"></script>
+		<!-- <script src="script2.js"></script> -->
+	</body>
+</html>
